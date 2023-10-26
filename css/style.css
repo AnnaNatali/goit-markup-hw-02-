@@ -1,0 +1,117 @@
+:root {
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-brand: #2196f3;
+  --color-light: #fff;
+  --color-bg-dark: #2f303a;
+  --color-logo: #000;
+}
+
+body {
+  color: var(--color-primary);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/* header */
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.header-logo .accent {
+  color: var(--color-brand);
+}
+.header-link {
+  color: var(--color-primary);
+  font-weight: 500;
+  line-height: 1.17;
+}
+.header-link:hover {
+  color: var(--color-brand);
+}
+.contacts-links {
+  color: var(--color-secondary);
+  font-weight: 500;
+  line-height: 1.17;
+}
+.contacts-links:hover {
+  color: var(--color-brand);
+}
+/* hero */
+.hero-section {
+  background: var(--color-bg-dark);
+}
+.hero-title {
+  color: var(--color-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero-button {
+  color: var(--color-light);
+  border: none;
+  background-color: var(--color-brand);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+}
+.benefit-text {
+  color: var(--color-secondary);
+}
+.person-job {
+  color: var(--color-secondary);
+}
+/* footer */
+.footer {
+  background-color: var(--color-bg-dark);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--color-light);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.footer-logo .accent {
+  color: var(--color-brand);
+}
+.address-link {
+  color: var(--color-light);
+}
+.footer-link {
+  color: #ffffff99;
+}
+.benefit-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.benefit-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-secondary);
+}
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+}
+.person-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.person-job {
+}
