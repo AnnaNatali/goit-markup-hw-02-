@@ -38,6 +38,9 @@ a {
 .header-link:hover {
   color: var(--color-brand);
 }
+.header-link:focus {
+  color: var(--color-brand);
+}
 .contacts-links {
   color: var(--color-secondary);
   font-weight: 500;
@@ -66,6 +69,13 @@ a {
   font-size: 16px;
   line-height: 1.875;
   text-align: center;
+  cursor: pointer;
+}
+.hero-button:hover {
+  color: #404bbf;
+}
+.hero-button:focus {
+  color: #404bbf;
 }
 .benefit-text {
   color: var(--color-secondary);
@@ -89,9 +99,13 @@ a {
 }
 .address-link {
   color: var(--color-light);
+  font-style: normal;
 }
 .footer-link {
   color: #ffffff99;
+}
+.footer-link:hover:focus {
+  color: var(--color-brand);
 }
 .benefit-title {
   font-weight: 700;
@@ -108,10 +122,31 @@ a {
   line-height: 1.17;
   text-align: center;
 }
+.pr-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--color-bg-dark);
+}
 .person-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
 }
-.person-job {
+.our-team {
+  background-color: #f5f4fa;
+}
+.ppicture {
+  background-color: #fff;
+}
+.port-button {
+  background-color: var(--color-secondary);
+  color: var(--color-logo);
+  cursor: pointer;
+}
+.port-button:hover:focus {
+  background-color: var(--color-brand);
+}
+.pr-title {
+  color: var(--color-bg-dark);
 }
