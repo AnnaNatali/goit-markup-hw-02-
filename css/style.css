@@ -35,7 +35,10 @@ a {
   font-weight: 500;
   line-height: 1.17;
 }
-.header-link:hover:focus {
+.header-link:focus {
+  color: var(--color-brand);
+}
+.header-link:hover {
   color: var(--color-brand);
 }
 .contacts-links {
@@ -43,7 +46,10 @@ a {
   font-weight: 500;
   line-height: 1.17;
 }
-.contacts-links:hover:focus {
+.contacts-links:hover {
+  color: var(--color-brand);
+}
+.contacts-links:focus {
   color: var(--color-brand);
 }
 /* hero */
@@ -68,7 +74,10 @@ a {
   text-align: center;
   cursor: pointer;
 }
-.hero-button:hover:focus {
+.hero-button:focus {
+  background-color: #404bbf;
+}
+.hero-button:hover {
   background-color: #404bbf;
 }
 .benefit-text {
@@ -99,6 +108,9 @@ a {
   color: #ffffff99;
 }
 .address-link:hover {
+  color: var(--color-brand);
+}
+.address-link:focus {
   color: var(--color-brand);
 }
 .benefit-title {
@@ -134,12 +146,20 @@ a {
   background-color: #fff;
 }
 .port-button {
-  background-color: var(--color-secondary);
-  color: var(--color-logo);
-  cursor: pointer;
-}
-.port-button:hover:focus {
+  color: var(--color-light);
   background-color: var(--color-brand);
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+}
+.port-button:hover {
+  background-color: #404bbf;
+}
+.port-button:focus {
+  background-color: #404bbf;
 }
 .pr-title {
   color: var(--color-bg-dark);
