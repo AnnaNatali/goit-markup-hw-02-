@@ -98,7 +98,7 @@ a {
 .footer-link {
   color: #ffffff99;
 }
-.footer-link:hover:focus {
+.address-link:hover {
   color: var(--color-brand);
 }
 .benefit-title {
