@@ -35,10 +35,7 @@ a {
   font-weight: 500;
   line-height: 1.17;
 }
-.header-link:hover {
-  color: var(--color-brand);
-}
-.header-link:focus {
+.header-link:hover:focus {
   color: var(--color-brand);
 }
 .contacts-links {
@@ -46,7 +43,7 @@ a {
   font-weight: 500;
   line-height: 1.17;
 }
-.contacts-links:hover {
+.contacts-links:hover:focus {
   color: var(--color-brand);
 }
 /* hero */
@@ -71,11 +68,8 @@ a {
   text-align: center;
   cursor: pointer;
 }
-.hero-button:hover {
-  color: #404bbf;
-}
-.hero-button:focus {
-  color: #404bbf;
+.hero-button:hover:focus {
+  background-color: #404bbf;
 }
 .benefit-text {
   color: var(--color-secondary);
